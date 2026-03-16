@@ -1,0 +1,11 @@
+vorname;nachname;email;telefon;geburtsdatum;registriert_am;aktiv;ort_id
+Anna;Müller;anna.mueller@gmail.com;0791234567;1990-03-15;2022-01-10;TRUE;1
+Peter;Meier;peter.meier@bluewin.ch;0763456789;1985-07-22;2022-02-05;TRUE;2
+Sara;Keller;sara.keller@hotmail.com;0791122334;1998-11-01;2022-03-18;TRUE;1
+Jonas;Schneider;jonas.schneider@gmail.com;;1993-05-30;2022-04-02;TRUE;3
+Laura;Fischer;laura.fischer@gmx.ch;0789988776;1987-09-14;2022-05-21;TRUE;4
+Markus;Weber;markus.weber@outlook.com;0761234567;2000-01-08;2022-06-30;TRUE;2
+Nina;Huber;nina.huber@gmail.com;0794567890;1995-04-19;2022-07-15;TRUE;5
+Lukas;Zimmermann;lukas.zimm@bluewin.ch;;1982-12-03;2022-08-09;TRUE;1
+Claudia;Brunner;claudia.b@gmail.com;0762233445;1991-08-27;2022-09-22;TRUE;3
+David;Gerber;david.gerber@hotmail.com;0793344556;1997-02-11;2022-10-10;FALSE;2
