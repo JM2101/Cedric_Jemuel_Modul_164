@@ -1,3 +1,5 @@
+set search_path TO data;
+
 TRUNCATE TABLE ausleihe CASCADE;
 TRUNCATE TABLE film_schauspieler CASCADE;
 TRUNCATE TABLE film CASCADE;

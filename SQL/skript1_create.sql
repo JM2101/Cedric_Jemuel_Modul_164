@@ -1,7 +1,12 @@
+-- First
 CREATE DATABASE INF2025i_Cedric_Jemuel_Videothek;
 
+-- Just works inside the new DB
+CREATE SCHEMA Data;
+SET search_path TO Data;
 
-CREATE TABLE ort (s
+
+CREATE TABLE ort (
     ort_id  SERIAL       PRIMARY KEY,
     plz     CHAR(4)      NOT NULL,
     stadt   VARCHAR(100) NOT NULL,

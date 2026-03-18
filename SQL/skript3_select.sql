@@ -1,5 +1,5 @@
 -- SELECT-Abfragen
-
+set search_path TO data;
 
 -- 1. Alle Filme eines bestimmten Genres anzeigen
 SELECT f.titel, f.erscheinungsjahr, f.dauer_min, f.preis_pro_tag
