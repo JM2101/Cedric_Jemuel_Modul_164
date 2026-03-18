@@ -1,5 +1,4 @@
-CREATE DATABASE Videothek_Cedric_Jemuel;
-
+CREATE DATABASE INF2025i_[Laufnummer]_Videothek;
 
 
 CREATE TABLE ort (

@@ -82,9 +82,9 @@ ORDER BY gesamtumsatz DESC;
 
 
 -- 10. Kunden die mehr als 1 Ausleihe gemacht haben
-SELECT k.vorname, k.nachname, COUNT(a.ausleihe_id) AS anzahl_ausleiehen
+SELECT k.vorname, k.nachname, COUNT(a.ausleihe_id) AS anzahl_ausleihen
 FROM kunde k
 JOIN ausleihe a ON k.kunde_id = a.kunde_id
 GROUP BY k.vorname, k.nachname
 HAVING COUNT(a.ausleihe_id) > 1
-ORDER BY anzahl_ausleiehen DESC;
+ORDER BY anzahl_ausleihen DESC;
