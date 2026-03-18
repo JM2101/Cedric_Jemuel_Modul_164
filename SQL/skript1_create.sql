@@ -1,7 +1,7 @@
-CREATE DATABASE INF2025i_[Laufnummer]_Videothek;
+CREATE DATABASE INF2025i_Cedric_Jemuel_Videothek;
 
 
-CREATE TABLE ort (
+CREATE TABLE ort (s
     ort_id  SERIAL       PRIMARY KEY,
     plz     CHAR(4)      NOT NULL,
     stadt   VARCHAR(100) NOT NULL,

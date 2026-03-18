@@ -79,8 +79,7 @@ JOIN genre g ON f.genre_id = g.genre_id
 GROUP BY g.bezeichnung
 ORDER BY gesamtumsatz DESC;
 
-
-
+s
 -- 10. Kunden die mehr als 1 Ausleihe gemacht haben
 SELECT k.vorname, k.nachname, COUNT(a.ausleihe_id) AS anzahl_ausleihen
 FROM kunde k
